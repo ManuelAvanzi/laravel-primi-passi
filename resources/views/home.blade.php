@@ -7,6 +7,19 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    
+        
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">{{$home}}</a></li>
+                    <li><a href="product">{{$product}}</a></li>
+                    <li><a href="contacts">{{$contacts}}</a></li>
+                    <li><a href="test">{{$test}}</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    
 </body>
 </html>
