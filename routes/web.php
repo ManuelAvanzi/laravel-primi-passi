@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "<h1>Home Page</h1>";
+    return view("home");
 });
 
 Route::get('/product',function (){
-    return "<h1>Pagina del prodotto</h1>";
+    return view("product");
 });
 
 Route::get('/contacts',function(){
-    return "<h1>Pagina dei contatti</h1>";
+    return view("contacts");
 });
