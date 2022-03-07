@@ -7,7 +7,7 @@
     <title>Home</title>
 </head>
 <body>
-    
+    <h1>Ciao dalla home page di Laravel</h1>
         
         <div class="container">
             <nav>
@@ -19,7 +19,13 @@
                 </ul>
             </nav>
         </div>
-        
+
+        <h1>Ciao {{$name}} - {{$lastname}}</h1>
+
+    <h3>Test ciclo for</h3>
+    @for($i=0;$i<=10;$i++)
+        {{ $i }}
     
+    @endfor
 </body>
 </html>

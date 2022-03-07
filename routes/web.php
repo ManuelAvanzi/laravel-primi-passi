@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', function () {
    $data =[
+       'name'=>'Manuel',
+       'lastname'=>'avanzi',
        'home'=>'home',
        'product'=>'product',
        'contacts'=>'contacts',
@@ -34,5 +36,9 @@ Route::get('/contacts',function(){
 });
 
 Route::get('/test',function(){
-    return view("test");
+    return view("tests.test");
+});
+
+Route::get('/test2',function(){
+    return "<p>testo di prova</p>";
 });

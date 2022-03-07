@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Product</h1>
+    <p>Questa è la pagina del prodotto</p>
 </body>
 </html>
