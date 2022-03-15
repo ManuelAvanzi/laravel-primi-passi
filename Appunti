@@ -1,0 +1,20 @@
+LARAVEL PRIMI PASSI pt 1------ 
+
+MODEL 
+---modellizza un aspetto della realtà ( like a fucking a database) 
+---il model sono i dati 
+---rappresenta una tabella del database
+---attravero il model eseguirò delle query 
+
+
+VIEW
+
+---ciò che vede l'utente
+---se model è ciò che organizza i dati view è ciò che li mostra 
+
+
+CONTROLLER
+
+---è il cervello 
+---prende i dati dal model e li passa alla view 
+--------------------------------------------------------------------------------------

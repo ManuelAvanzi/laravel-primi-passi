@@ -23,7 +23,7 @@
         <h1>Ciao {{$name}} - {{$lastname}}</h1>
 
     <h3>Test ciclo for</h3>
-    @for($i=0;$i<=10;$i++)
+    @for($i=10;$i<=0;$i--)
         {{ $i }}
     
     @endfor
